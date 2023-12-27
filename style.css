@@ -95,3 +95,86 @@ h1, h2{
 #farmacia img{
     margin: 64px auto;
 }
+
+#farmacia  p{
+    max-width: 950px;
+    margin: 0 auto;
+}
+
+#duvidas{
+    display: flex;
+    align-items: center;
+    gap: 64px;
+    padding: 64px 80px;
+}
+
+.duvida{
+    position: relative;
+    margin-bottom: 20px;
+}
+
+.duvida h3{
+    border: 2px solid #ff725e;
+    border-radius: 8px;
+    cursor: pointer;
+    padding: 24px
+}
+
+.duvida img{
+    position: absolute;
+    top: 32px;
+    right: 24px;
+}
+
+.duvida p{
+    border-right: 1px solid #ff725e;
+    border-bottom: 1px solid #ff725e;
+    border-left: 1px solid #ff725e;
+    border-radius: 0 0 8px 8px;
+    margin-top: -8px;
+    padding: 24px;
+}   
+
+footer{
+    background-color: rgba(255, 152, 108, 0.25);
+    display: flex;
+    justify-content: space-between;
+    gap: 80px;
+    padding: 64px 80px;
+}
+
+footer img, footer strong{
+
+    display: block;
+    font-weight: 600;
+    margin-bottom: 24px;
+
+}
+
+footer nav a{
+    display: block;
+    color: #263138;
+    margin-bottom: 16px;
+    text-decoration: none;
+    max-width: 350px;
+}
+
+footer p {
+    margin-bottom: 16px;
+}
+
+footer p a {
+    color: #ff725e;
+    text-decoration: none;
+}
+
+.copyright{
+    background-color: #263138;
+    text-align: center;
+    padding: 24px;
+    color: #ffffff;
+}
+
+.copyright a {
+    color: #ff9A6C;
+}
