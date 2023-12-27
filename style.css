@@ -1,0 +1,97 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500&family=Roboto:wght@100&family=Rubik+Doodle+Shadow&display=swap');
+* {
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    color: #263138;
+}
+
+header{
+    display: flex;
+    background-color: #ff9A6C;
+    padding: 24px 80px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header nav a {
+    color: #ffffff;
+    font-weight: 400;
+    padding: 32px;
+    text-decoration: none;
+}
+
+#inicio {
+    display: flex;
+    align-items: center;
+    gap: 32px;
+    padding: 24px 80px 128px 80px;
+    position: relative;
+}
+
+h1, h2{
+    font-weight: 600;
+    font-size: 32px;
+    margin-bottom: 32px;
+    font-family: 'Rubik Doodle Shadow', sans-serif;
+}
+
+.paragrafo{
+    line-height: 70px;
+    margin-bottom: 32px;
+}
+
+.button{
+    background-color: #ff725e;
+    border-radius: 15px;
+    color: #ffffff;
+    text-decoration: none;
+    padding: 16px 32px;
+}
+
+.button_trans{
+    background-color: transparent;
+    border-radius: 15px;
+    color: #ff725e;
+    text-decoration: none;
+    padding: 16px 32px;
+}
+
+.img_inicio{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    z-index: -10;
+}
+
+#clinica{
+    display: flex;
+    align-items: center;
+    gap: 64px;
+    padding: 64px 80px;
+    justify-content: space-between;
+}
+
+#clinica div p{
+    margin-bottom: 16px;
+}
+
+#clinica li {
+    margin-bottom: 16px;
+    margin-left: 32px;
+}
+
+#farmacia{
+    padding: 64px 80px;
+    text-align: center;
+}
+
+#farmacia img{
+    margin: 64px auto;
+}
